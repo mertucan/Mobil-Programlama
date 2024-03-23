@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonGyroscope"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Gyroscope" />
+
+    <Button
+        android:id="@+id/buttonMagnetic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Magnetic Field" />
+
+    <Button
+        android:id="@+id/buttonOrientation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Orientation" />
+
+    <Button
+        android:id="@+id/buttonAccelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Accelerometer" />
+
+    <Button
+        android:id="@+id/buttonLight"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Light" />
+
+    <Button
+        android:id="@+id/buttonPressure"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Pressure" />
+
+    <Button
+        android:id="@+id/buttonTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Temperature" />
+
+    <Button
+        android:id="@+id/buttonProximity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Proximity" />
+
+    <Button
+        android:id="@+id/buttonHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Humidity" />
+
+</LinearLayout>
