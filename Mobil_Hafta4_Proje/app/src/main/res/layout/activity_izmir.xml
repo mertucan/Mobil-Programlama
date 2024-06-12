@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ActivityIzmir">
+
+    <!-- İzmir 1 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/izm1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/izm1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/izm1"
+            android:text="İzmir 1 Bilgileri\nBuraya İzmir hakkında bilgiler ekleyebilirsiniz." />
+    </RelativeLayout>
+
+    <!-- İzmir 2 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/izm2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/izm2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/izm2"
+            android:text="İzmir 2 Bilgileri\nBuraya İzmir hakkında bilgiler ekleyebilirsiniz." />
+    </RelativeLayout>
+
+    <!-- İzmir 3 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/izm3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/izm3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/izm3"
+            android:text="İzmir 3 Bilgileri\nBuraya İzmir hakkında bilgiler ekleyebilirsiniz." />
+    </RelativeLayout>
+
+</LinearLayout>

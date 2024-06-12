@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Bluetooth Aç Butonu -->
+    <Button
+        android:id="@+id/btnEnableBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BT Aç"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:onClick="enableBluetooth"/>
+
+    <!-- Bluetooth Kapa Butonu -->
+    <Button
+        android:id="@+id/btnDisableBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BT Kapa"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="disableBluetooth"/>
+
+    <!-- Bluetooth Görünür Ol Butonu -->
+    <Button
+        android:id="@+id/btnMakeDiscoverable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Görünür Ol"
+        android:layout_below="@id/btnEnableBluetooth"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:onClick="makeDiscoverable"/>
+
+    <!-- Cihazları Listele Butonu -->
+    <Button
+        android:id="@+id/btnListDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listele"
+        android:layout_below="@id/btnDisableBluetooth"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="listDevices"/>
+
+    <!-- ListView -->
+    <ListView
+        android:id="@+id/listViewDevices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnMakeDiscoverable"
+        android:layout_above="@id/btnListDevices"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>

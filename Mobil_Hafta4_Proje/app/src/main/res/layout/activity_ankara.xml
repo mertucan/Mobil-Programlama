@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ActivityAnkara">
+
+    <!-- Ankara 1 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ank1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ank1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ank1"
+            android:text="Ankara 1 Bilgileri\nBuraya Ankara hakkında bilgiler ekleyebilirsiniz." />
+    </RelativeLayout>
+
+    <!-- Ankara 2 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ank2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ank2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ank2"
+            android:text="Ankara 2 Bilgileri\nBuraya Ankara hakkında bilgiler ekleyebilirsiniz." />
+    </RelativeLayout>
+
+    <!-- Ankara 3 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ank3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ank3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ank3"
+            android:text="Ankara 3 Bilgileri\nBuraya Ankara hakkında bilgiler ekleyebilirsiniz." />
+    </RelativeLayout>
+
+</LinearLayout>
