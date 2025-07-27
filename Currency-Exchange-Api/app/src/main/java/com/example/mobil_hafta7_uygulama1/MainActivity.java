@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void getRates(View view) {
-        String accessKey = "WdmfjUkxXA6BNuKP1VteDGar3Uww79QP";
+        String accessKey = "KEY";
         String baseUrl = "https://api.apilayer.com/fixer/latest?symbols=TRY,EUR,CHF,JPY,CAD&base=USD";
 
         new FetchRatesTask().execute(baseUrl, accessKey);
